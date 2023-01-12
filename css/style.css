@@ -104,3 +104,13 @@ header{
     border: 1px solid transparent;
     border-radius: 10px;
 }
+
+.social{
+    background-color: #3a546d;
+    margin-bottom: 2rem;
+}
+
+.social .row>.col-12{
+    /* Debug */
+    background-color: brown;
+}
