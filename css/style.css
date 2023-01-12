@@ -107,10 +107,19 @@ header{
 
 .social{
     background-color: #3a546d;
-    margin-bottom: 2rem;
+   
 }
 
 .social .row>.col-12{
     /* Debug */
     background-color: brown;
+}
+
+
+/* ************************
+    FOOTER
+***************************/
+footer{
+    background-color: #2c3e50;
+    
 }
