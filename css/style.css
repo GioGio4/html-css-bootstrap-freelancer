@@ -38,4 +38,19 @@ header{
 }
 
 
+/* ************************
+    MAIN
+***************************/
 
+.jumbotron{
+    /* Debug */
+    background-color: #1abc9c;
+   
+}
+
+.jumbotron .row .col{
+    /* Debug */
+    background-color: blue;
+    height: 70px;
+    border: 1px solid black;
+}
