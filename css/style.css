@@ -43,7 +43,6 @@ header{
 ***************************/
 
 .jumbotron{
-    /* Debug */
     background-color: #1abc9c;
    
 }
@@ -53,4 +52,17 @@ header{
     background-color: blue;
     height: 70px;
     border: 1px solid black;
+}
+
+.portfolio{
+    background-color: white;
+    
+}
+
+.card{
+    /* Debug */
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 300px;
 }
