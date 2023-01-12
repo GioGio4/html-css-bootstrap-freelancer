@@ -70,6 +70,7 @@ header{
 
 .about{
     background-color: #1abc9c;
+    margin-bottom: 2rem;
 }
 
 .testo-prova{
@@ -83,4 +84,23 @@ header{
     padding: 1rem 2rem;
     border: 1.5px solid gray;
     border-radius: 20px;
+}
+
+.contact{
+    margin-bottom: 2rem;
+}
+
+.box-contact{
+    /* Debug */
+    background-color: darkgoldenrod;
+    height: 500px;
+
+}
+
+.btn-send{
+    background-color: #1abc9c;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
