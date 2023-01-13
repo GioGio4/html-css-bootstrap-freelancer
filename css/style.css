@@ -32,6 +32,10 @@ a{
     color: #2c3e50;
 }
 
+.text-custom-color-2{
+    color:  #1abc9c;
+}
+
 /* ************************
     HEADER
 ***************************/
@@ -45,6 +49,8 @@ a{
     MAIN
 ***************************/
 
+/* Jumbotron section */
+
 .jumbotron{
     background-color: #1abc9c;
    
@@ -54,6 +60,7 @@ a{
     max-width: 300px;
 }
 
+/* Portfolio Section  */
 
 .portfolio{
     background-color: white;
@@ -68,12 +75,12 @@ a{
     border-radius: 20px;
 }
 
+/* About section */
+
 .about{
     background-color: #1abc9c;
     margin-bottom: 2rem;
 }
-
-
 
 .btn-download{
     padding: 0.5rem 1rem;
@@ -83,15 +90,10 @@ a{
     background-color: transparent;
 }
 
+/* Contact section */
+
 .contact{
     margin-bottom: 2rem;
-}
-
-.box-contact{
-    /* Debug */
-    background-color: darkgoldenrod;
-    height: 500px;
-
 }
 
 .contact input,
@@ -109,21 +111,23 @@ a{
     border-radius: 10px;
 }
 
-.social{
+/* ************************
+FOOTER
+***************************/
+footer{
     background-color: #3a546d;
    
 }
 
-.social .row>.col-12{
-    /* Debug */
-    background-color: brown;
-}
-
-
-/* ************************
-    FOOTER
-***************************/
-footer{
+.copyright-footer{
     background-color: #2c3e50;
     
+}
+
+.social-icon>i{
+    width: 50px;
+    height: 50px;
+    line-height: 3rem;
+    border: 1px solid white;
+    border-radius: 50%;
 }
