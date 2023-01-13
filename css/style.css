@@ -94,10 +94,17 @@ a{
 
 }
 
+.contact input,
+.contact textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
 .btn-send{
     background-color: #1abc9c;
     color: white;
-    padding: 0.7rem 1.5rem;
+    padding: 0.5rem 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
 }
